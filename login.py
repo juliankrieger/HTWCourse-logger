@@ -7,7 +7,7 @@ user_field = driver.find_element_by_id("username")
 pw_field = driver.find_element_by_id("password")
 
 user_field.send_keys("jkrieger")
-pw_field.send_keys("azpf7zm9f!")
+pw_field.send_keys("your_pass")
 button = driver.find_element_by_tag_name("button")
 button.click()
 
